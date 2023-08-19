@@ -15,11 +15,11 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 # This call to setup() does all the work
 setup(
     name="totob12",
-    version="0.1.4",
+    version="0.1.5",
     description="TotoB12 library",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://totob12.readthedocs.io/",
+    url="https://github.com/TotoB12/totob12-lib#readme/",
     author="Antonin",
     author_email="antonin@beliard.io",
     license="MIT",
