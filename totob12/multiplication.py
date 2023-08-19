@@ -17,7 +17,7 @@ class Multiplication:
         Multiply a given number by the multiplier.
         
         :param number: The number to multiply.
-        :type number: int
+        :type number: int   
     
         :return: The result of the multiplication.
         :rtype: int
