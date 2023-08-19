@@ -1,5 +1,5 @@
 ---
-name: "pre-release"
+name: "Pre-Release"
 
 on: [push]
 
@@ -16,9 +16,9 @@ jobs:
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GB_TOKEN }}"
-          automatic_release_tag: "latest"
+          automatic_release_tag: "main"
           prerelease: true
           title: "Development Build"
-          files: |
-            LICENSE.txt
-            *.jar
+          # files: |
+          #   LICENSE.txt
+          #   *.jar
