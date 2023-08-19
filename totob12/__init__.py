@@ -1,1 +1,1 @@
-from medium_multiply.multiplication import Multiplication
+from totob12.multiplication import Multiplication
