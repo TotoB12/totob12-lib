@@ -24,3 +24,9 @@ class Multiplication:
         """        
         # Using NumPy .dot() to multiply the numbers
         return np.dot(number, self.multiplier)
+
+# Instantiate a Multiplication object
+multiplication = Multiplication(2)
+
+# Call the multiply method
+print(multiplication.multiply(5))
