@@ -1,27 +1,27 @@
----
-name: "Pre-Release"
+# ---
+# name: "Pre-Release"
 
-on:
-  push:
-    branches:
-      - "main"
+# on:
+#   push:
+#     branches:
+#       - "main"
 
-jobs:
-  pre-release:
-    name: "Pre Release"
-    runs-on: "ubuntu-latest"
+# jobs:
+#   pre-release:
+#     name: "Pre Release"
+#     runs-on: "ubuntu-latest"
 
-    steps:
-      - name: "Build & test"
-        run: |
-          echo "done!"
+#     steps:
+#       - name: "Build & test"
+#         run: |
+#           echo "done!"
 
-      - uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          repo_token: "${{ secrets.GB_TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: true
-          title: "Development Build"
-          # files: |
-          #   LICENSE.txt
-          #   *.jar
+#       - uses: "marvinpinto/action-automatic-releases@latest"
+#         with:
+#           repo_token: "${{ secrets.GB_TOKEN }}"
+#           automatic_release_tag: "latest"
+#           prerelease: true
+#           title: "Development Build"
+#           # files: |
+#           #   LICENSE.txt
+#           #   *.jar
