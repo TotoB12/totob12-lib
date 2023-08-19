@@ -9,10 +9,10 @@ class Multiplication:
     :type multiplier: int
     """
     
-    def __init__(self, multiplier):
-        self.multiplier = multiplier
+    # def __init__(self, multiplier):
+    #     self.multiplier = multiplier
     
-    def multiply(self, number):
+    def multiply(number1, number2):
         """
         Multiply a given number by the multiplier.
         
@@ -23,4 +23,4 @@ class Multiplication:
         :rtype: int
         """        
         # Using NumPy .dot() to multiply the numbers
-        return np.dot(number, self.multiplier)
+        return np.dot(number1, number2)
