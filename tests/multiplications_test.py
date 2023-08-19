@@ -1,6 +1,6 @@
 import unittest
 import math
-from medium_multiply import Multiplication
+from totob12 import Multiplication
 
 
 class MultiplicationTestCase(unittest.TestCase):
