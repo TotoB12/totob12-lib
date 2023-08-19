@@ -1,3 +1,5 @@
+import numpy as np
+
 class Multiplication:
     """
     Instantiate a multiplication operation.
@@ -19,9 +21,9 @@ class Multiplication:
     
         :return: The result of the multiplication.
         :rtype: int
-        """
-        
-        return number * self.multiplier
+        """        
+        # Using NumPy .dot() to multiply the numbers
+        return np.dot(number, self.multiplier)
 
 # Instantiate a Multiplication object
 multiplication = Multiplication(2)
