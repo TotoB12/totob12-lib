@@ -1,1 +1,0 @@
-from totob12.multiplication import Multiplication
