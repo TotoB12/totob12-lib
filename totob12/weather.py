@@ -1,6 +1,6 @@
 import requests
 
-class weather:
+class Weather:
     def get_quick_weather(unit):
         """
         Get the weather.
