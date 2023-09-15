@@ -1,6 +1,6 @@
 import numpy as np
 
-class math:
+class Math:
     """
     Instantiate a multiplication operation.
     Numbers will be multiplied by the given multiplier.
